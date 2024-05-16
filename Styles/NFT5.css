@@ -1,0 +1,51 @@
+/* Centered content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 60vw;
+  text-align: center;
+  background-color: #cc00ff;
+  margin-top: 5%;
+  margin-left: 20%;
+  border-radius: 5%;
+}
+
+.content {
+    padding: 20px;
+}
+.imgcontent{
+width: 40%;
+}
+
+.product-image {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 0.625rem;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFAB00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2F5E6E;
+}
+
+
+/* add a responsive css to it for all screen sizes */
